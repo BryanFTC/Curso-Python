@@ -3,7 +3,7 @@
 # e imprima por pantalla la frase Tu índice de masa corporal es donde es el índice de masa 
 # corporal calculado redondeado con dos decimales.
 
-peso =
-estatura = 
-masacorporal = peso/estatura**2
-print("Tu índice de masa corporal es" masacorporal )
+peso = input("Cual es tu peso en kilogramos?")
+estatura = input("Cual es tu estatura en metros")
+masacorporal = round(float(peso)/float(estatura**2), 2)
+print("Tu índice de masa corporal es"+ str(masacorporal))
